@@ -1,0 +1,37 @@
+.a{
+    width: 50px;height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: auto;left: 0px;
+    background-color: rgb(51, 51, 152);
+    fill: none;
+    animation: anim 2s 2s infinite linear;
+    
+}
+.b{
+    width: 40px;height: 40px;
+    border-radius: 50%;
+    border-top: 5px solid white;
+    border-left: 5px solid rgb(51, 51, 152);
+    border-right: 5px solid rgb(51, 51, 152);
+    border-bottom: 5px solid rgb(51, 51, 152);
+    position: absolute;
+    top: 0px;left: 0px;
+    background-color:rgb(51, 51, 152);
+    animation: anim 4s 2s infinite linear;
+    
+   
+}
+
+
+
+@keyframes anim{
+    50%{
+        transform: rotate(180deg);
+    }
+    
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
